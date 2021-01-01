@@ -1,0 +1,326 @@
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+width: 100%;
+height: 410px;
+padding: 0;
+overflow: hidden;
+background-image: url('../images/Home page banner bg.png');
+background-size: cover;
+background-position: 100% 100%;
+background-repeat: no-repeat;
+margin-bottom: 20px;
+margin-top: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+#hero h1{
+font-size: 54px;
+color: #fff;
+}
+
+#hero p.small{
+font-size: 36px;
+color: #ffbe58;
+font-weight: 300;
+margin-bottom: 0px;
+}
+
+#hero p.small_small{
+font-size: 18px;
+color: #fff;
+font-weight: 300;
+}
+
+/*--------------------------------------------------------------
+# Trending Stories
+--------------------------------------------------------------*/
+#trending_stories{
+padding: 30px 0px;
+}
+
+
+#trending_stories h1{
+font-size: 24px;
+color: #18458B;
+text-align: center;
+}
+
+
+.stories{
+border: 1px solid #d9dce3;
+border-radius: 5px;
+height: 140px;
+display: flex;
+align-items: center;
+}
+
+
+#trending_stories .owl-carousel .owl-item img{
+width: 90%;
+height: 70px;
+display: block;
+margin: auto;
+}
+
+#trending_stories .owl-one{
+position: relative;
+padding: 30px 35px;
+}
+
+
+#trending_stories button.owl-prev{
+position: absolute;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+}
+
+
+#trending_stories button.owl-next{
+position: absolute;
+top: 50%;
+right: 0;
+transform: translateY(-50%);
+}
+
+
+#trending_stories button span{
+font-size: 50px;
+color: #3aaced;
+}
+
+
+/*--------------------------------------------------------------
+# Top Brands
+--------------------------------------------------------------*/
+#top_brands{
+padding: 30px 0px;
+background-color: #ecf6f8;
+}
+
+
+#top_brands h1{
+font-size: 24px;
+color: #18458B;
+text-align: center;
+margin-bottom: 30px;
+}
+
+#top_brands .box{
+width: 195px;
+height: 110px;
+border: 0.25px solid #d9dce3;
+background-color: #fff;
+display: inline-block;
+text-align: center;
+margin-right: 20px;
+margin-bottom: 20px;
+padding: 10px 0px 0px;
+}
+
+#top_brands .box img{
+width: 75%;
+display: block;
+margin: auto;
+}
+
+#top_brands .box p{
+font-size: 14px;
+color: #666;
+margin-top: 10px;
+}
+
+
+/*--------------------------------------------------------------
+# Top Couoons
+--------------------------------------------------------------*/
+#top_coupon{
+padding: 30px 0px;
+background-color: #f5f5f5;
+}
+
+
+#top_coupon h1{
+font-size: 24px;
+color: #18458B;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.topBox{
+border: 1px solid #d9dce3;
+background-color: #fff;
+margin-bottom: 20px;
+}
+
+.imagebox{
+padding: 10px 10px 0px;
+}
+
+.topBox img{
+width: 75px;
+float: right;
+}
+
+.topBox h2{
+font-size: 24px;
+color: #333;
+}
+    
+.topBox p{
+font-size: 14px;
+color: #666;
+height: 40px;
+overflow: hidden;
+margin-top: 20px;
+padding: 0px 10px 0px;
+}
+
+.offer{
+background-color: #f9f9f9;
+padding: 10px 10px 15px;
+}
+
+.offer a {
+color: #61bcef;
+font-size: 12px;
+}
+
+
+a.btn{
+background-color: #f89800;
+color: #fff;
+font-size: 12px;
+float: right;
+height: 30px;
+box-shadow: 0px 3px 6px #00000029;
+
+}
+
+a.btn:hover{
+color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Brief Text
+--------------------------------------------------------------*/
+
+#brief_text{
+padding: 30px 0px;
+}
+
+#brief_text h1{
+font-size: 16px;
+color: #333;
+}
+#brief_text p{
+font-size: 14px;
+color: #666;
+}
+
+
+/*--------------------------------------------------------------
+# Subscribe
+--------------------------------------------------------------*/
+#subscribe{
+padding: 40px 100px;
+background-image: url('../images/Subscribe banner.png');
+background-position: top center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 200px;
+display: flex;
+align-items: center;
+}
+
+#subscribe form{
+float: right;
+}
+
+#subscribe h1{
+font-size: 20px;
+color: #fff;
+}
+
+#subscribe .form-control {
+width: 280px;
+padding: 19px 10px;
+font-size: 14px;
+height: 40px;
+}
+
+#subscribe .input-group-text {
+padding: 5px 20px;
+height: 40px;
+font-size: 14px;
+border-top-right-radius: 0.25rem !important;
+border-bottom-right-radius: 0.25rem !important;
+background-color: #18458b;
+border-color: #18458b;
+color: #fff;
+cursor: pointer;
+}
+
+#subscribe p.thanks{
+font-size: 30px;
+text-align: center;
+margin: 0;
+color: #fff;
+font-weight: 500;
+}
+
+
+
+/*--------------------------------------------------------------
+# Mobile Responsive
+--------------------------------------------------------------*/
+
+@media only screen and (max-width:667px){
+
+#hero h1{
+font-size: 45px;
+}
+
+#hero p.small{
+font-size: 30px;
+}
+
+.topBrands .box{
+width: 45% !important;
+margin-right: 10px;
+}
+
+.topBrands .box:nth-child(even){
+margin-right: 0px !important;
+}
+
+#subscribe {
+padding: 30px 0px;
+height: 150px;
+}
+
+#subscribe p.thanks{
+font-size: 20px;
+}
+
+
+}
+
+
+
+/* iphone5 */
+
+@media only screen and (min-width:320px) and (max-height:568px){
+
+#trending_stories .owl-carousel .owl-item img{
+height: auto;
+}
+
+}

@@ -1,0 +1,170 @@
+
+
+/*--------------------------------------------------------------
+# Common
+--------------------------------------------------------------*/
+
+.section-title h1{
+font-size: 24px;
+margin: 0 0 35px;
+color: #fff;
+position: relative;
+}
+
+.section-title h2{
+color: #18458B;
+position: relative;
+margin: 0 0 70px;
+font-size: 24px;
+}
+
+
+.section-title .title:before {
+content: '';
+position: absolute;
+display: block;
+width: 30px;
+height: 2px;
+top: 35px;
+left: 0;
+right: 0;
+margin: 0 auto;
+background: #3AACED;
+}
+
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#about_banner {
+width: 100%;
+height: 470px;
+padding: 0;
+overflow: hidden;
+background-image: url("../images/about_us/banner.png");
+background-size: cover;
+background-position: 100% 100%;
+background-repeat: no-repeat;
+color: #fff;
+margin-bottom: 20px;
+margin-top: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#about_banner .w-60{
+width: 60%;
+}
+
+#about_banner p{
+font-size: 14px;
+margin-bottom: 40px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Why choose
+--------------------------------------------------------------*/
+#why_choose{
+padding: 70px 0px;
+}
+
+
+.categories{
+display: grid;
+grid-column-gap: 50px;
+grid-template-columns: auto auto auto;
+justify-content: center;
+}
+
+
+.common-size{
+width: 270px;
+}
+
+.categories .cateory_1{
+background-color: #ECF6F8;
+padding: 25px;
+height: 110px;
+margin-bottom: 80px;
+}
+
+.categories .cateory_1 img{
+float: right;
+}
+
+
+.categories h3{
+margin: 0px;
+color: #18458B;
+font-size: 32px;
+font-weight: bold;
+}
+
+.categories p{
+font-size: 16px;
+color: #666666;
+}
+
+
+.cateory_2{
+border: 1px solid #D9DCE3;
+border-radius: 15px;
+text-align: center;
+height: 180px;
+padding: 40px;
+}
+
+.cateory_2 h4{
+font-size: 20px;
+color: #18458B;
+font-weight: bold;
+margin: 10px 0 0;
+}
+
+
+/*--------------------------------------------------------------
+# How it works
+--------------------------------------------------------------*/
+
+#how_works{
+padding: 80px 0px;
+background-color: #ECF6F8;
+}
+
+
+
+/*--------------------------------------------------------------
+# Mobile Responsive
+--------------------------------------------------------------*/
+
+@media only screen and (max-width:768px){
+
+#about_banner{
+display: block;
+padding: 30px 0px;
+height: auto;
+}
+
+
+.categories{
+display: block;
+}
+
+.common-size{
+width: 100%;
+margin-bottom: 25px;
+}
+
+.categories .cateory_1{
+margin-bottom: 25px;
+}
+
+
+}
+
+

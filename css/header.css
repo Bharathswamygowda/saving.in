@@ -1,0 +1,99 @@
+.drop-down ul li.head{
+display: inline-block;
+}
+
+.drop-down ul{
+padding: 20px 40px !important;
+box-shadow: 0px 30px 30px #0000001A;
+position: relative;
+}
+
+.drop-down ul::after{
+content: "";
+position: absolute;
+bottom: 100%;
+left: 10%;
+margin-left: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: transparent transparent #fff transparent;
+}
+
+.drop-down ul li.head p.title{
+font-size: 18px;
+color: #333333;
+font-weight: 500;
+}
+
+.drop-down ul li.head p{
+text-align: left;
+}
+
+.drop-down ul li.head p a{
+color: #666666;
+font-size: 14px;
+padding: 10px 0px;
+}
+
+
+
+p.viewStore{
+text-align: right;
+margin-top: 20px;
+font-weight: 500;
+}
+
+p.viewStore a{
+color: #3AACED !important; 
+font-size: 13px;
+}
+
+
+
+
+
+@media only screen and (max-width:667px){
+
+.drop-down ul li.head p.title{
+color:#e3f0fc !important;
+margin-top: 10px;
+}
+
+.drop-down ul li.head p a{
+color:#e3f0fc !important;
+}
+
+.drop-down ul{
+padding:0px 10px 10px !important;
+}
+
+
+}
+
+
+/* iPad Pro */
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation : landscape){
+
+.nav-menu .form-control {
+width: 250px !important;
+}
+
+.nav-menu .input-group-text{
+padding: 5px 10px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation : portrait) {
+
+.nav-menu .form-control {
+width: 250px !important;
+}
+
+.nav-menu .input-group-text{
+padding: 5px 10px;
+}
+
+}

@@ -1,0 +1,218 @@
+/*--------------------------------------------------------------
+# Common
+--------------------------------------------------------------*/
+
+.section-title h2{
+color: #18458B;
+position: relative;
+margin: 0 0 70px;
+font-size: 24px;
+}
+
+.section-title .title:before {
+content: '';
+position: absolute;
+display: block;
+width: 30px;
+height: 2px;
+top: 35px;
+left: 0;
+right: 0;
+margin: 0 auto;
+background: #3AACED;
+}
+
+
+/*--------------------------------------------------------------
+# banner
+--------------------------------------------------------------*/
+
+#contact_banner img{
+height: 500px;
+width: 100%;
+}
+
+
+/*--------------------------------------------------------------
+# contactus
+--------------------------------------------------------------*/
+
+#contactus_form{
+margin-top: -325px;
+margin-bottom: 150px;
+}
+
+
+.form_area{
+background-color: #fff;
+border-radius: 6px;
+box-shadow: 0px 10px 80px #0000001A;
+padding: 80px 100px;
+}
+
+p.social{
+color: #666;
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+p.social a{
+color: #666666;
+}
+
+p.social i{
+color: #3AACED;
+margin-right: 5px;
+}
+
+
+p.icons i{
+font-size: 20px;
+}
+
+.icofont-google-plus{
+font-size: 25px !important;
+}
+
+
+
+#contactus_form h3{
+margin: 0 0 20px;
+font-size: 18px;
+color: #333333;
+}
+
+.form-control{
+font-size: 14px;
+color: #666666;
+background-color: #ECF6F8;
+border: 0px;
+border-radius: 0px;
+}
+
+
+.form-control:focus{
+box-shadow: 0 0 0 0 !important;
+background-color: #ECF6F8 !important;
+}
+
+textarea{
+resize: none;
+}
+
+
+#contactus_form form button{
+background-color: #18458B;
+color: #fff;
+font-size: 14px;
+font-weight: 400;
+width: 100%;
+border-radius: 0px;
+height: 50px;
+}
+
+.error{
+border: 1px solid #FF5B5B;
+}
+
+.error_msg{
+font-size: 11px;
+color: #FF5B5B;
+}
+
+
+/*--------------------------------------------------------------
+# Subscribe
+--------------------------------------------------------------*/
+#subscribe{
+padding: 40px 100px;
+background-image: url('../images/Subscribe banner.png');
+background-position: top center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 200px;
+display: flex;
+align-items: center;
+}
+
+#subscribe form{
+float: right;
+}
+
+#subscribe h1{
+font-size: 20px;
+color: #fff;
+}
+
+#subscribe .form-control {
+width: 280px;
+padding: 19px 10px;
+font-size: 14px;
+height: 40px;
+}
+
+#subscribe .input-group-text {
+padding: 5px 20px;
+height: 40px;
+font-size: 14px;
+border-top-right-radius: 0.25rem !important;
+border-bottom-right-radius: 0.25rem !important;
+background-color: #18458b;
+border-color: #18458b;
+color: #fff;
+cursor: pointer;
+}
+
+#subscribe p.thanks{
+font-size: 30px;
+text-align: center;
+margin: 0;
+color: #fff;
+font-weight: 500;
+}
+
+
+
+/*--------------------------------------------------------------
+# Mobile Responsive
+--------------------------------------------------------------*/
+
+@media only screen and (max-width:667px){
+
+#contactus_form{
+margin-bottom: 40px;
+}
+
+
+#contactus_form img{
+margin-bottom: 30px;
+}
+
+.form_area{
+padding: 30px 30px;
+}
+
+
+#subscribe {
+padding: 30px 0px;
+height: 150px;
+}
+
+#subscribe p.thanks{
+font-size: 20px;
+}
+
+
+}
+    
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+#subscribe {
+    padding: 40px 30px !important;
+}
+
+.form_area{
+padding: 30px 30px;
+}
+
+}
